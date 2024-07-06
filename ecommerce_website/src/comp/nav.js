@@ -1,5 +1,7 @@
 import React from 'react'
 import { MdLocalShipping } from "react-icons/md";
+import './nav.css'
+
 
 const nav = () => {
   return (

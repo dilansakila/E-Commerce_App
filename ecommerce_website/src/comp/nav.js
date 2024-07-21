@@ -29,6 +29,9 @@ const nav = () => {
             <div className='icon'>
             <CiLogin />
             </div>
+            <div className='btn'>
+              <button>Login </button>
+            </div>
           </div>
         </div>
       </div>

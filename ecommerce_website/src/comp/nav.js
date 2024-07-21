@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdLocalShipping } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
+import { CiLogin } from "react-icons/ci";
 import './nav.css'
 
 
@@ -23,6 +24,11 @@ const nav = () => {
           <div className='search_box'>
             <input type='text' value='' placeholder='search'></input>
             <button><CiSearch /></button>
+          </div>
+          <div className='user'>
+            <div className='icon'>
+            <CiLogin />
+            </div>
           </div>
         </div>
       </div>

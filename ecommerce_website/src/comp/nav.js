@@ -2,6 +2,7 @@ import React from 'react'
 import { MdLocalShipping } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { CiLogin } from "react-icons/ci";
+import { CiLogout } from "react-icons/ci";
 import './nav.css'
 
 
@@ -34,6 +35,17 @@ const nav = () => {
               <button>Login </button>
             </div>
           </div>
+          <div className='user'>
+            <div className='icon'>
+            <CiLogout />
+            </div>
+            <div className='btn'>
+              <button>Logout </button>
+            </div>
+          </div>
+        </div>
+        <div className='last_header'>
+          
         </div>
       </div>
     </>

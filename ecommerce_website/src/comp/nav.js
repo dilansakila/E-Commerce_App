@@ -3,6 +3,7 @@ import { MdLocalShipping } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { CiLogin } from "react-icons/ci";
 import { CiLogout } from "react-icons/ci";
+import {link} from 'react-router-dom'
 import './nav.css'
 
 
@@ -45,7 +46,11 @@ const nav = () => {
           </div>
         </div>
         <div className='last_header'>
-          
+          <div className='nav'>
+            <ul>
+              <li></li>
+            </ul>
+          </div>
         </div>
       </div>
     </>

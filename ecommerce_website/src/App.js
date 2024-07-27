@@ -1,12 +1,15 @@
 import React from 'react'
 import Nav from './comp/nav'
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 const App = () => {
   return (
     <>
-
-    <Nav />
+    <Router>
+      <div>
+        
+      </div>
+    </Router>
       
     </>
   )
